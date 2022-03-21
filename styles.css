@@ -114,6 +114,22 @@ nav ul {
 	list-style-type: none; /* removes bullet points */
 }
 
+img {
+	width:100%;
+}
+
+.stages {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content:center;
+}
+.stages li {
+	width: 30%;
+}
+
+
+
 @media screen and (min-width: 38rem){
 	/* TYPOGRPHY */
 	header p {
